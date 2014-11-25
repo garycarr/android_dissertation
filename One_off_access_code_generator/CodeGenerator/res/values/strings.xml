@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">CodeGenerator</string>
+	<string name="action_settings">Settings</string>
+	<string name="neas">North East Ambulance Service</string>
+	<string name="username">Enter Username</string>
+	<string name="generate">Press to Generate</string>
+	<string name="accesscode">Access code</string>
+	<string name="exit">Exit</string>
+	<string name="no">No</string>
+	<string name="yes">Yes</string>
+
+</resources>

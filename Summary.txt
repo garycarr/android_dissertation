@@ -1,0 +1,11 @@
+This folder contains 3 zip files.
+
+Ambulance_application - the primary Android application.  Note that the code contains 2 development features that would not be used in a real world version.  
+For testing the developer can enter no login details and log in to to the device.  If any data is entered in any of the three boxes the normal process is followed and validation attempted
+The application contains a dummy data button to input information without access the internet.
+
+Both these functions can be deleted without causing any problems to the application but to assist with dissertation marking they were kept in.
+
+one_off_access_code_generator - Produces a one off access code entry into the primary application
+
+php_Scripts - The primary application and one off generator connects to these in HTTP Posts, and the code to create a connection to Google API for roouting information.  Due to time full commenting was not completed on the PHP.

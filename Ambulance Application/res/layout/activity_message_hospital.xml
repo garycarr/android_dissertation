@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:padding="10dp" >
+
+	<TextView
+		android:id="@+id/tvMessageToSend"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/enterMessage" />
+
+	<EditText
+		android:id="@+id/etInputMessage"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:ems="10"
+		android:inputType="text" >
+	</EditText>
+
+	<RelativeLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" >
+
+		<Button
+			android:id="@+id/bMessageSubmit"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/send" />
+
+		<Button
+			android:id="@+id/bMessageBack"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_toRightOf="@id/bMessageSubmit"
+			android:text="@string/back" />
+	</RelativeLayout>
+
+	<TextView
+		android:id="@+id/tvMessageHistoryHospital"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textStyle="bold" />
+
+	<ScrollView
+		android:id="@+id/scrollView1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content" >
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="50dp"
+			android:orientation="vertical"
+			android:padding="10dp" >
+
+			<TextView
+				android:id="@+id/tvMessageDisplayMessageHospital"
+				android:layout_width="260dp"
+				android:layout_height="wrap_content" />
+		</LinearLayout>
+	</ScrollView>
+
+</LinearLayout>

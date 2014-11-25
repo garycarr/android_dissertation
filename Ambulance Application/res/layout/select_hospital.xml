@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+
+	<ImageView
+		android:id="@+id/iV1"
+		android:layout_width="180dp"
+		android:layout_height="80dp"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginBottom="10dp"
+		android:layout_marginTop="50dp"
+		android:contentDescription="@string/NEAS"
+		android:src="@drawable/neas" />
+
+	<TextView
+		android:id="@+id/tvSHtext"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="30dp"
+		android:gravity="center"
+		android:text="@string/enterTreatmentDetails"
+		android:textSize="20sp" >
+	</TextView>
+
+	<Spinner
+		android:id="@+id/spinnerHospital"
+		android:layout_width="190dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="20dp"
+		android:entries="@array/hospital_options"
+		android:prompt="@string/choose_hospital" />
+
+	<Spinner
+		android:id="@+id/spinnerCategory"
+		android:layout_width="190dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:entries="@array/category_choices"
+		android:prompt="@string/choose_category" />
+
+	<Button
+		android:id="@+id/bSHSubmit"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="10dp"
+		android:text="@string/submit" />
+
+</LinearLayout>
