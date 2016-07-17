@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+  
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>A Flag Quiz</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<link rel="stylesheet" type="text/css" href="flags-QUIZ.css" />
+ 
+<script type="text/javascript" src="validate-QUIZ.js"></script>
+
+ 
+</head>
+<body>
+
+<div id="content">
+
+<h1>Flags</h1>
+
+
+<div id="quiz">
+
+<form onsubmit="return validate();" method="post" action="https://internal.cs.ncl.ac.uk/modules/2012-13/csc8004/scripts/formscript.php">
+
+<h2>A Simple Quiz</h2>
+
+<fieldset>
+	<legend>About You</legend>
+  		<p id="UserInfo">What is your name?</p>
+		<div>
+			<input type="text" name="UserInfo" size="40" />
+		</div>
+  
+</fieldset>
+
+<fieldset>
+	<legend>The questions</legend>
+<ol>
+	<li>
+		<p id="Q1">What does this message spell?</p>
+		<div>
+			<img src="https://internal.cs.ncl.ac.uk/modules/2012-13/csc8004/flags/letters/100_ICS_Hotel.svg.png" alt="A maritime signal flag" />
+			<img src="https://internal.cs.ncl.ac.uk/modules/2012-13/csc8004/flags/letters/100_ICS_Echo.svg.png" alt="A maritime signal flag" />
+			<img src="https://internal.cs.ncl.ac.uk/modules/2012-13/csc8004/flags/letters/100_ICS_Lima.svg.png" alt="A maritime signal flag" />
+			<img src="https://internal.cs.ncl.ac.uk/modules/2012-13/csc8004/flags/letters/100_ICS_Lima.svg.png" alt="A maritime signal flag" />
+			<img src="https://internal.cs.ncl.ac.uk/modules/2012-13/csc8004/flags/letters/100_ICS_Oscar.svg.png" alt="A maritime signal flag" />
+			<br />
+			<select name="Q1">
+				<option value="">Choose one from the following:</option>
+				<option value="a">Happy</option>
+				<option value="b">Hoppy</option>
+				<option value="c">Hello</option>
+				<option value="d">Cello</option>
+			</select>
+		</div>
+	</li>
+
+	<li>
+		<p id="Q2">Which TWO of the following statements are TRUE?</p>
+		<div>
+			<input type="checkbox" name="Q2a" id="Q2a" /> <label for="Q2a">a/ The Latin word <em>vexillum</em> means flag or banner</label><br />
+			<input type="checkbox" name="Q2b" id="Q2b" /> <label for="Q2b">b/ The "Prince's Flag" was originally red, white and blue</label><br />
+			<input type="checkbox" name="Q2c" id="Q2c" /> <label for="Q2c">c/ The flag of Nepal is not rectangular</label><br />
+			<input type="checkbox" name="Q2d" id="Q2d" /> <label for="Q2d">d/ The Nelson numeric code was used at the Battle of Trafalgar</label>
+		</div>
+	</li>
+
+	<li>
+		<p id="Q3">Which of these flags correctly shows S (Sierra)?</p>
+		<div>
+			<input type="radio" name="Q3" id="Q3a" value="a" /> <label for="Q3a">a/ <img src="https://internal.cs.ncl.ac.uk/modules/2012-13/csc8004/flags/letters/100_ICS_Papa.svg.png" alt="A maritime signal flag" /></label> 
+			<input type="radio" name="Q3" id="Q3b" value="b" /> <label for="Q3b">b/ <img src="https://internal.cs.ncl.ac.uk/modules/2012-13/csc8004/flags/letters/100_ICS_Sierra.svg.png" alt="A maritime signal flag" /></label> 
+			<input type="radio" name="Q3" id="Q3c" value="c" /> <label for="Q3c">c/ <img src="https://internal.cs.ncl.ac.uk/modules/2012-13/csc8004/flags/letters/100_ICS_Juliet.svg.png" alt="A maritime signal flag" /></label> 
+			<input type="radio" name="Q3" id="Q3d" value="d" /> <label for="Q3d">d/ <img src="https://internal.cs.ncl.ac.uk/modules/2012-13/csc8004/flags/letters/100_ICS_Mike.svg.png" alt="A maritime signal flag" /></label>
+		</div>
+	</li>
+
+	<li>
+		<p id="Q4">The study of flags is called?</p>
+		<div>
+			<input type="text" name="Q4" size="40" />
+		</div>
+	</li>
+
+</ol>
+
+<input type="hidden" name="thisScore" />
+
+</fieldset>
+
+<fieldset>
+	<legend>Submit your answers</legend>
+
+<div>
+	<input type="submit" value="Submit" /> or <input type="reset" value="Reset" />
+</div>
+
+</fieldset>
+
+
+
+
+</form>
+</div>
+
+
+<div id="footer">  
+	<p>Answers can be found at <a href="http://www.wikipedia.com/en">Wikipedia</a></p>
+</div>
+
+</div>
+
+</body>
+</html>
+

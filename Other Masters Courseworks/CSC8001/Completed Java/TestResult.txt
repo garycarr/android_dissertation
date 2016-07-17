@@ -1,0 +1,114 @@
+MatchNo|1
+St James|12|1|2013|15|00
+HomePlayer1|1
+HomePlayer2|2
+HomePlayer3|3
+HomePlayer4|4
+HomePlayer5|5
+HomePlayer6|6
+HomePlayer7|7
+HomePlayer8|8
+HomePlayer9|9
+HomePlayer10|10
+HomePlayer11|11
+AwayPlayer1|1
+AwayPlayer2|2
+AwayPlayer3|3
+AwayPlayer4|12
+AwayPlayer5|5
+AwayPlayer6|6
+AwayPlayer7|7
+AwayPlayer8|8
+AwayPlayer9|9
+AwayPlayer10|10
+AwayPlayer11|13
+No of home team scorers|1
+Home player Number, then goals scored(Must be team number 1-11)(Must be team number 1-11)|9|1
+No of away team scorers|2
+Away player Number, then goals scored(Must be team number 1-11)|5|2
+Away player Number, then goals scored(Must be team number 1-11)|4|1
+MatchNo|2
+Pont Leisure|13|1|2013|15|00
+HomePlayer1|1
+HomePlayer2|2
+HomePlayer3|3
+HomePlayer4|4
+HomePlayer5|5
+HomePlayer6|6
+HomePlayer7|9
+HomePlayer8|10
+HomePlayer9|11
+HomePlayer10|12
+HomePlayer11|13
+AwayPlayer1|1
+AwayPlayer2|2
+AwayPlayer3|3
+AwayPlayer4|4
+AwayPlayer5|5
+AwayPlayer6|6
+AwayPlayer7|7
+AwayPlayer8|8
+AwayPlayer9|9
+AwayPlayer10|10
+AwayPlayer11|11
+No of home team scorers|2
+Home player Number, then goals scored(Must be team number 1-11)|6|2
+Home player Number, then goals scored(Must be team number 1-11)|2|1
+No of away team scorers|1
+Away player Number, then goals scored(Must be team number 1-11)|4|1
+MatchNo|3
+Joker Park|14|1|2013|15|00
+HomePlayer1|1
+HomePlayer2|2
+HomePlayer3|3
+HomePlayer4|4
+HomePlayer5|5
+HomePlayer6|6
+HomePlayer7|7
+HomePlayer8|8
+HomePlayer9|9
+HomePlayer10|12
+HomePlayer11|13
+AwayPlayer1|1
+AwayPlayer2|2
+AwayPlayer3|3
+AwayPlayer4|4
+AwayPlayer5|5
+AwayPlayer6|6
+AwayPlayer7|7
+AwayPlayer8|8
+AwayPlayer9|9
+AwayPlayer10|12
+AwayPlayer11|13
+No of home team scorers|2
+Home player Number, then goals scored(Must be team number 1-11)|9|1
+Home player Number, then goals scored(Must be team number 1-11)|7|1
+No of away team scorers|2
+Away player Number, then goals scored(Must be team number 1-11)|3|2
+Away player Number, then goals scored(Must be team number 1-11)|4|1
+MatchNo|4
+Presley Park|15|1|2013|15|00
+HomePlayer1|1
+HomePlayer2|2
+HomePlayer3|3
+HomePlayer4|4
+HomePlayer5|5
+HomePlayer6|6
+HomePlayer7|7
+HomePlayer8|8
+HomePlayer9|9
+HomePlayer10|11
+HomePlayer11|12
+AwayPlayer1|1
+AwayPlayer2|2
+AwayPlayer3|3
+AwayPlayer4|4
+AwayPlayer5|5
+AwayPlayer6|6
+AwayPlayer7|7
+AwayPlayer8|8
+AwayPlayer9|9
+AwayPlayer10|12
+AwayPlayer11|13
+No of home team scorers|0
+No of away team scorers|1

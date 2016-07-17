@@ -1,0 +1,253 @@
+/*Resets browsers pre-sets*/
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/*Sets font and colour for headers*/
+h1,h2,h3 {
+	font-family: "lucida sans unicode", "lucida grande", "sans serif";
+	color: #8F8888;
+}
+
+/*Sets font for paragraphs and creates margin at bottom*/
+p, ul{
+	margin-bottom:18px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+/*Creates background, and creates space above and below container*/
+body {
+	background-color: #C7C1C1;
+	padding-top:8px;
+	padding-bottom:8px;
+}
+
+/*Creates space for the navbar and inserts picture of flag*/
+h1 {
+	background-image: url('https://internal.cs.ncl.ac.uk/modules/2012-13/csc8004/flags/css/70-flags.png');
+	background-repeat: no-repeat;
+	background-position: right 60px;
+	padding-top: 75px;
+	padding-bottom: 32px;
+	text-indent: 23px;
+}
+
+/*Style for header 2 and inserts grey bullet point picture to left of text*/
+h2 {
+	padding-top: 9px;
+	padding-left: 15px;
+	padding-bottom: 8px;
+	background-image: url('https://internal.cs.ncl.ac.uk/modules/2012-13/csc8004/flags/css/12-dkgrey.png');
+	background-repeat: no-repeat;
+	background-position: center left;
+	margin-left: 2px;
+	margin-bottom:20px;
+}
+
+/*Style for header 3 and inserts grey bullet point picture to left of text*/
+h3 {
+	margin: 0;
+	padding-top: 9px;
+	padding-left: 15px;
+	padding-bottom: 8px;
+	background-image: url('https://internal.cs.ncl.ac.uk/modules/2012-13/csc8004/flags/css/8-dkgrey.png');
+	background-repeat: no-repeat;
+	background-position: center left;
+	margin-left: 5px;
+}
+
+
+
+/*Creates container to hold website in centre of page.  Creates a top red bar and sets width for scaling*/
+#container {
+	width:100%;
+	max-width: 960px;
+	min-width: 450px;
+	background-color: white;
+	margin: 0px auto;
+	position: relative;
+	background-image: url('https://internal.cs.ncl.ac.uk/modules/2012-13/csc8004/flags/css/30-dark-red.png');
+	background-repeat: repeat-x;
+}
+
+/*Positions nav bar at top of container*/
+#navbar {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	background-color: #5D2C2C;
+	white-space: nowrap;
+	padding-top: 5px;
+	height: 20px;
+	width: 540px;
+	text-align:right;
+}
+
+/*Removes bullets from links and displays links inline*/
+#navbar li {
+	display: inline;
+}
+
+/*Styles the navigation bar*/
+#navbar a {
+	color: #C7C1C1;
+	text-decoration: none;
+	padding-left:8px;
+	text-align:right;
+	}
+
+/*Hides the drop down section in normal view*/
+#navbar ul li ul {
+	visibility: hidden;
+	display: none;
+	padding-right:20px;
+}
+
+/*Scales the size of the drop down box to ensure one link on each*/
+#navbar ul li ul li {
+	padding-right:8px;
+}
+
+/*Floats drop down to the left of International*/
+#navbar > ul> li{
+float:left;
+}
+
+/*Displays the drop down box when hovered over*/
+#navbar ul li:hover>ul {
+	visibility: visible;
+	position: absolute;
+	float: right;
+	text-align: left;
+	display: block;
+	width: 245px;
+	background-color: #5D2C2C;
+	white-space: normal;
+	padding-bottom: 5px;
+	padding-left:2px;
+}
+
+/*Positions text and creates border*/
+#intro {
+	border-top: thick solid #5D2C2C;
+	border-top-width:10px;
+	padding-bottom: 6px;
+	padding-right:10px;
+	padding-left: 8px;
+}
+
+/*Positions text and creates border*/
+#history {
+	border-top: thick solid #5D2C2C;
+	border-top-width:10px;
+	padding-bottom: 6px;
+	padding-right:10px;
+	padding-left: 8px;
+}
+
+/*Inserts badge to the right of the history div*/
+#photobadge {
+	padding: 20px;
+	float: right;
+	background-image: url('https://internal.cs.ncl.ac.uk/modules/2012-13/csc8004/flags/css/420x370-box.png');
+	background-repeat: no-repeat;
+}
+
+/*Adds picture to right of text and adds border*/
+#national {
+	border-top: thick solid #5D2C2C;
+	border-top-width:10px;
+	background-image: url('https://internal.cs.ncl.ac.uk/modules/2012-13/csc8004/flags/css/3-flags75.png');
+	background-repeat: no-repeat;
+	padding-bottom: 5px;
+	padding-left: 8px;
+	background-position:570px 70px;
+}
+
+/*Positions text around image*/
+#national p {
+	padding-right: 410px;
+}
+
+/*Positions bulleted list*/
+#national ul {
+	padding-right: 400px;
+	padding-left: 50px;
+}
+
+/*Positions text and creates border*/
+#maritime {
+	border-top: thick solid #5D2C2C;
+	border-top-width:10px;
+	padding-right:10px;
+	padding-left: 8px;
+}
+
+/*Positions bulleted list*/
+#maritime ul {
+	padding-left: 50px;
+}
+
+/*Positions video box to the right of the maritime div, adds a picture border and changes the font size*/
+#videobox {
+	padding: 20px;
+	float: right;
+	background-image: url('https://internal.cs.ncl.ac.uk/modules/2012-13/csc8004/flags/css/460x320-box.png');
+	background-repeat: no-repeat;
+	text-align: center;
+	font-size: smaller;
+	margin-left:10px;
+	background-position: center right;
+	height:279px;
+}
+
+/*creates border.*/
+#letters {
+	border-top: thick solid #5D2C2C;
+	border-top-width:10px;
+}
+
+/*On resize floats the images past each other.  Creates spacing between the images*/
+#letters p {
+	float: left;
+	padding-left:4px;
+	padding-right:4px;
+	font-weight:bold;
+	font-variant:small-caps;
+}
+
+/*Creates a border around the picture*/
+#letters img{
+	border: 1px solid;
+	margin:12px;
+}
+
+/*Positions text and creates border.  Clears to ensure that letters have been drawn in full*/
+#numbers {
+	clear: both;
+	border-top: thick solid #5D2C2C;
+	border-top-width:10px;
+	padding: 5px;
+}
+
+/*On resize floats the images past each other.  Creates spacing between the images*/
+#numbers p {
+	float: left;
+	padding-right: 8px;
+	padding-left: 8px;
+	padding-bottom: 5px;
+	font-weight:bold;
+	font-variant:small-caps;
+}
+
+/*Positions text and creates border.  Clears to ensure that letters have been drawn in full*/
+#wikiLink {
+	text-align: right;
+	padding: 8px;
+	clear: left;
+	border-top: thick solid #5D2C2C;
+	border-top-width:10px;
+	font-size: smaller;
+}

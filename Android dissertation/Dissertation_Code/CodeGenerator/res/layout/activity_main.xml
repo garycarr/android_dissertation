@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:padding="25dp" >
+
+	<ImageView
+		android:id="@+id/iV1"
+		android:layout_width="180dp"
+		android:layout_height="80dp"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginBottom="20dp"
+		android:layout_marginTop="30dp"
+		android:contentDescription="@string/neas"
+		android:src="@drawable/neas" />
+
+	<TextView
+		android:id="@+id/tvUserName"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/username"
+		android:textSize="20sp" />
+
+	<EditText
+		android:id="@+id/etUserName"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:ems="10"
+		android:inputType="textNoSuggestions|textVisiblePassword" />
+
+	<Button
+		android:id="@+id/bGenerate"
+		android:layout_width="175dp"
+		android:layout_height="wrap_content"
+		android:text="@string/generate" />
+
+	<TextView
+		android:id="@+id/tvAccessCode"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/accesscode"
+		android:textSize="20sp" />
+
+	<EditText
+		android:id="@+id/etCode"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:ems="9"
+		android:inputType="textNoSuggestions|textVisiblePassword"
+		android:text="" />
+
+	<Button
+		android:id="@+id/bExit"
+		android:layout_width="175dp"
+		android:layout_height="wrap_content"
+		android:text="@string/exit" />
+
+</LinearLayout>

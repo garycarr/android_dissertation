@@ -1,0 +1,68 @@
+/*Sets the colour outside the content div and font style for the page*/
+body {
+	background-color: #C7C1C1;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+/*Sets the colour and style of H1 and H2*/
+h1,h2 {
+	font-family: "lucida sans unicode", "lucida grande", "sans serif";
+	color: #8F8888;
+}
+
+/*Creates a standard padding for text in p*/
+p{
+	padding-left:10px;
+}
+
+/*Positions H1, creates the border and inserts flag picture to the right*/
+h1 {
+	padding-top: 40px;
+	padding-bottom: 55px;
+	padding-left: 23px;
+	border-bottom: thick solid #5D2C2C;
+	border-bottom-width:10px;
+	background-image: url('https://internal.cs.ncl.ac.uk/modules/2012-13/csc8004/flags/css/70-flags.png');
+	background-repeat: no-repeat;
+	background-position: 750px 50px;
+	
+}
+
+/*Positions H2*/
+h2 {
+	padding-left: 25px;
+	padding-bottom: 8px;
+}
+
+/*Sets colour of border around the questions and creates gap from #content box*/
+fieldset{
+border-color:#5D2C2C;
+margin-left:5px;
+margin-right:5px;
+}
+
+/*Centres position and size for the content box.  Picture is added along the top of the div*/
+#content{
+	max-width: 960px;
+	min-width: 450px;
+	background-color: white;
+	margin: 0px auto;
+	position: relative;
+	background-image: url('https://internal.cs.ncl.ac.uk/modules/2012-13/csc8004/flags/css/30-dark-red.png');
+	background-repeat: repeat-x;
+}
+
+/*Creates border for each image and space between images*/
+img {
+	border: 1px solid;
+	margin:4px;
+}
+
+/*Positions wikipedia text to the right and changes font size.  Creates top border*/
+#footer{
+	border-top: thick solid #5D2C2C;
+	border-top-width:10px;
+	text-align:right;
+	font-size: smaller;
+		margin-top:5px;
+}

@@ -1,0 +1,344 @@
+/*Styles header for each page*/
+header {
+	display: block;
+	font-variant: small-caps;
+	font-size: 3em;
+	text-shadow: -2px 0 #FFFFFF, 0 2px #FFFFFF, 2px 0 #FFFFFF, 0 -2px
+		#FFFFFF;
+	text-align: center;
+	color: #0404B4;
+	padding: 10px;
+}
+
+/*Styles the body for each page*/
+body {
+	background: #E0E0E0;
+	height: 100%;
+	width: 100%;
+}
+
+/*Utility box used to style box encompassing header*/
+#box {
+	margin-left: auto;
+	margin-right: auto;
+	background: #EFF8FB;
+	background-clip: padding-box;
+	border-style: double;
+	border-width: 5px;
+	border-color: #0404B4;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+}
+
+/*Container for the Metro Search Engine*/
+.container {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+/*Nav bar at the top of each page*/
+#nav {
+	list-style: none;
+	font-weight: bold;
+	width: 100%;
+	position: relative;
+	z-index: 5;
+	text-align: center;
+}
+
+/*Nav bar at the top of each page*/
+#nav li {
+	float: left;
+	margin-right: 10px;
+	position: relative;
+}
+
+/*Nav bar at the top of each page*/
+#nav a {
+	border-color: #0404B4;
+	border-width: 5px;
+	border-style: double;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	display: block;
+	padding: 5px;
+	color: #0404B4;
+	background: #EFF8FB;
+	text-decoration: none;
+}
+
+/*Nav bar at the top of each page*/
+#nav a:hover {
+	color: #fff;
+	background: #EFF8FB;
+	text-decoration: underline;
+}
+
+/*Nav bar at the top of each page*/
+#nav ul {
+	background: #fff;
+	background: rgba(255, 255, 255, 0);
+	list-style: none;
+	position: absolute;
+	display: none;
+}
+
+/*Nav bar at the top of each page*/
+#nav ul li {
+	padding-top: 1px;
+	float: none;
+}
+
+/*Nav bar at the top of each page*/
+#nav ul a {
+	white-space: nowrap;
+}
+
+/*Nav bar at the top of each page*/
+#nav li:hover ul {
+	display: table;
+}
+
+/*Nav bar at the top of each page*/
+#nav li:hover a {
+	color: #fff;
+	background: #0404B4;
+	text-decoration: underline;
+}
+
+/*Nav bar at the top of each page*/
+#nav li:hover ul a {
+	text-decoration: none;
+}
+
+/*Nav bar at the top of each page*/
+#nav li:hover ul li a:hover {
+	background: #EFF8FB;
+	color: #0404B4;
+}
+
+/*Styles the return results*/
+p.customselectmenu {
+	position: relative;
+	display: inline-block;
+}
+
+.customselectmenu select {
+	display: inline-block;
+	padding: 4px 3px 3px 5px;
+	margin: 0;
+	font: inherit;
+	font-variant: small-caps;
+	line-height: 1.2;
+	background: #EFF8FB;
+	color: #0404B4;
+	border-color: #0404B4;
+	border-width: 5px;
+	border-style: double;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+}
+
+/*Style the box containing the menu's*/
+#menucontainer {
+	font-variant: small-caps;
+	font-size: 1em;
+	color: #0404B4;
+	width: 500px;
+	padding: 5px;
+	background: #EFF8FB;
+	text-align: center;
+	border: 5px double #0404B4;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+	border-radius: 25px;
+}
+
+/*variant of the box styling for menu's*/
+#menucontainerdepdes {
+	font-variant: small-caps;
+	font-size: 1em;
+	color: #0404B4;
+	width: 500px;
+	padding: 5px;
+	background: #EFF8FB;
+	text-align: center;
+	border: 5px double #0404B4;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+	border-radius: 25px;
+}
+
+#menucontainertime {
+	font-variant: small-caps;
+	font-size: 1em;
+	color: #0404B4;
+	width: 500px;
+	padding: 5px;
+	background: #EFF8FB;
+	text-align: center;
+	border: 5px double #0404B4;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+	border-radius: 25px;
+}
+
+/*Styles the submit button*/
+.button {
+	border-color: #0404B4;
+	border-width: 5px;
+	border-style: double;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	padding: 10px 10px 10px 10px;
+	text-align: center;
+	color: #0404B4;
+	background-color: #FFFFFF;
+}
+
+/*Styles the submit button*/
+.button:hover {
+	color: #FFFFFF;
+	border: 5px double #FFFFFF;
+	background-color: #0404B4;
+}
+
+/*border styled for general purpose use*/
+#border {
+	background-size: 100%;
+	background-color: white;
+	border: 5px double #0404B4;
+	margin-left: auto;
+	margin-right: auto;
+	background-repeat: no-repeat;
+}
+
+/*Fill internal image to border box size*/
+#border img {
+	width: 100%;
+}
+
+/*Chris image styling*/
+#chris {
+	background-image: url(Chris.jpg);
+	background-size: 100%;
+	border: 5px double #0404B4;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	height: 450px;
+	width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+	background-repeat: no-repeat;
+}
+
+/*Kefu image styling*/
+#kefu {
+	background-image: url(Kefu.jpeg);
+	background-size: 100%;
+	border: 5px double #0404B4;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	height: 450px;
+	width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+	background-repeat: no-repeat;
+}
+
+/*Antao image styling*/
+#antao {
+	background-image: url(antao.png);
+	background-size: 100%;
+	border: 5px double #0404B4;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	height: 450px;
+	width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+	background-repeat: no-repeat;
+}
+
+/*Gary image styling*/
+#gary {
+	background-image: url(Gary.jpg);
+	background-size: 100%;
+	border: 5px double #0404B4;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	height: 450px;
+	width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+	background-repeat: no-repeat;
+}
+
+/*Jazz image styling*/
+#jazz {
+	background-image: url(Jazz.jpg);
+	background-size: 100%;
+	border: 5px double #0404B4;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	height: 450px;
+	width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+	background-repeat: no-repeat;
+}
+
+/*Left container for returned results*/
+#leftcontainer {
+	float: left;
+	font-variant: small-caps;
+	font-size: 1em;
+	color: #0404B4;
+	width: 30%;
+	padding: 5px;
+	background: #EFF8FB;
+	text-align: center;
+	border: 5px double #0404B4;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: 10%;
+	border-radius: 25px;
+}
+
+/*right container for returned results*/
+#rightcontainer {
+	float: none;
+	width: 30%;
+	font-variant: small-caps;
+	font-size: 1em;
+	color: #0404B4;
+	padding: 5px;
+	background: #EFF8FB;
+	text-align: center;
+	border: 5px double #0404B4;
+	margin-bottom: 5px;
+	border-radius: 25px;
+	margin-left: 10%;
+}
+
+/*footer for individual pages*/
+footer {
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+}

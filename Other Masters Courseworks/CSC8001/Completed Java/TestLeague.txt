@@ -1,0 +1,50 @@
+Premier League|20
+Number of Clubs|3
+Stars|Star stadium
+Number of Players|14
+Michael Parkinson	|1.7|1|1|1982
+David Attenborough	|2|1|1|1981
+John Cusack	|2.4|1|1|1985
+Christian Bale	|1.8|1|1|1983
+Jimmy Naylor	|1.8|1|1|1987
+Jonny Evans	|1.8|1|1|1981
+Simon Garfunkel	|1.8|1|1|1986
+Patrick O'Healey		|1.7|1|1|1986
+James McEnroe		|2|1|1|1983
+Jonny Herbert	|2|1|1|1985
+Patrick O'Healy	|1.8|1|1|1986
+James Owen|1.8|1|1|1988
+Pastor Fiddler	|1.8|1|1|1981
+Tony Dwight	|1|1|1|1983
+Newcastle|St James
+Number of Players|14
+Pavel Geordie|2.2|1|1|1986
+Warren Barton|1.9|14|8|1988
+John Beresford	|2|1|1|1980
+Steve Howey	|1.8|1|1|1979
+Steve Watson	|1.8|1|1|1990
+Keith Gillespie		|1.8|1|1|1988
+Rob Lee	|1|1|1|1987
+Ruel Fox		|1.7|1|1|1985
+Alan Shearer		|2|1|1|1984
+Les Ferdinand	|2|1|1|1983
+Andy Cole	|1.8|1|1|1982
+Shay Given	|1.8|1|1|1981
+John Woodgate	|1.8|1|1|1980
+Bobby Robson	|1|1|1|1989
+Ponteland|Pont Leisure
+Number of Players|14
+Andrew Taylor	|1.7|1|1|1987
+Ali K	|2|1|1|1985
+Rob Bell		|2|1|1|1984
+Chris Morgan	|1.8|1|1|1979
+Paddy Watson		|1.8|1|1|1986
+Jaz Man		|1.8|1|1|1986
+Adam Gardener		|1|1|1|1985
+Hollie Clark	|1.7|1|1|1984
+Charlie Wilson		|2|1|1|1986
+Christine Atkinson	|2|1|1|1981
+Charlotte Johnson	|1.8|1|1|1982
+Elda Wajira	|1.8|1|1|1980
+Jimmy Mac	|1.8|1|1|1989
+Harmait Singh	|1|1|1|1985

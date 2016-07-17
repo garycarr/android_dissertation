@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+
+	<ImageView
+		android:id="@+id/iV1"
+		android:layout_width="180dp"
+		android:layout_height="80dp"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginBottom="10dp"
+		android:layout_marginTop="50dp"
+		android:contentDescription="@string/NEAS"
+		android:src="@drawable/neas" />
+
+	<Button
+		android:id="@+id/bWaitScreenAccept"
+		android:layout_width="212dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:text="@string/confirm"
+		android:textSize="15sp" />
+
+	<TextView
+		android:id="@+id/tvThisAddress"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="15dp"
+		android:layout_marginTop="10dp"
+		android:text="@string/address"
+		android:textSize="15sp"
+		android:textStyle="bold" >
+	</TextView>
+
+	<TextView
+		android:id="@+id/tvAddress"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="15dp"
+		android:textSize="15sp" >
+	</TextView>
+
+	<TextView
+		android:id="@+id/tvThisCategory"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="15dp"
+		android:layout_marginTop="10dp"
+		android:text="@string/category"
+		android:textSize="15sp"
+		android:textStyle="bold" >
+	</TextView>
+
+	<TextView
+		android:id="@+id/tvCategory"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="15dp"
+		android:textSize="15sp" >
+	</TextView>
+
+	<TextView
+		android:id="@+id/tvThisDistance"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="15dp"
+		android:layout_marginTop="10dp"
+		android:text="@string/distance"
+		android:textSize="15sp"
+		android:textStyle="bold" >
+	</TextView>
+
+	<TextView
+		android:id="@+id/tvDistance"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="15dp"
+		android:textSize="15sp" >
+	</TextView>
+
+</LinearLayout>

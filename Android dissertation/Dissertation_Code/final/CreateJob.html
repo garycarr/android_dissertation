@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+  
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Order an Ambulance</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="NHSJob.js"></script>
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <link rel="stylesheet" type="text/css" href="cssCreateJob.css" />
+
+ </head>
+<body>
+<div id="content">
+
+<h1>Enter details below</h1>
+
+
+<form onsubmit="return validate();" method="post" action="NHSCreateJob.php">
+
+<fieldset>
+	<legend>Address</legend>
+		<div>
+  		<p id="pAddress">What is the address?</p>
+		<div>
+			<input type="text" name="q2Address" size="40" />
+		</div>
+		
+		<p id = "errorAddress">No address entered</p>		
+  </div>
+</fieldset>
+
+<fieldset>
+	<legend>Post Code</legend>
+		<div>
+  		<p id="pPostCode">What is your post code?</p>
+		<div>
+			<input type="text" name="q3PostCode"/>
+		</div>
+		
+		<p id = "errorPostCode">Incorrect post code entered</p>
+		
+		<p>Click to search ambulance drivers and patient (TO DO - patient not at home)</p>
+		
+		<button type="button" onclick="ambulanceDistance(); getPatientNames();">Search</button>
+  </div>
+ </fieldset>
+
+ 
+<fieldset>
+ <div id="ambulanceLocation"></div>
+	<p id="ambulanceSearch">Ambulance drivers appears here</p>
+</fieldset>
+
+
+
+ <fieldset id="findingFullName">
+	<p id = "patientNames">Patient name appears here</p>
+ </fieldset>
+ 
+ 
+ <fieldset id="manualFullName">
+	<p>Enter patient manually</p>
+<input type="checkbox" name="patientNotFound" id="patientNotFound" onclick="showdiv()" />
+ </fieldset>
+
+  
+ <fieldset id="typeFullName">
+	<legend>Full name</legend>
+		<div>
+  		<p id="pName">What is the patients name? If unknown type unknown. If multiple type multiple.</p>
+		<div>
+			<input type="text" name="q1Name" />
+		</div>
+  </div>
+</fieldset>
+ 
+<fieldset>
+	<legend>Category</legend>
+		<div>
+  		<p id="pCategory">What category emergency?</p>
+		<div>
+			<select name="q2Category">
+				<option value="">Select category</option>
+				<option value="R1">R1</option>
+				<option value="R2">R2</option>
+				<option value="G1">G1</option>
+				<option value="G2">G2</option>
+				<option value="G3">G3</option>
+				<option value="G4">G4</option>
+				</select>
+		</div>
+  </div>
+</fieldset>
+
+
+
+<fieldset>
+	<legend>Details</legend>
+		<div>
+  		<p id="pDetails">What are the details?</p>
+		<div>
+			<input type="text" name="q4Details" size="40" />
+		</div>
+  </div>
+</fieldset>
+
+<fieldset>
+	<legend>Submit your answers</legend>
+
+<div>
+	<input type="submit" value="Submit" /> or <input type="reset" value="Reset" />
+</div>
+
+</fieldset>
+
+</form>
+
+</div>
+
+</body>
+</html>
